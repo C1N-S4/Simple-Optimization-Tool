@@ -19,13 +19,30 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-Key Features:
+**Improved Performance and Bug Fixes
+*  Performance Boost:
+   - Optimized algorithm for faster execution and improved overall performance.
+   - Reduced resource consumption, resulting in quicker response times.
 
-*  Optimization Algorithms: Utilize various optimization algorithms, such as BFGS, to find the minimum or maximum values of target functions.
-*  Flexible Input: Easily define and customize your own target function to optimize according to your specific problem.
-*  Quick Convergence: Benefit from efficient optimization algorithms for fast convergence and accurate results.
-*  Visualization: Visualize the optimization process and results with graphs and plots.
-*  User-Friendly Interface: Enjoy a simple and intuitive interface that makes it easy to set up and run optimization tasks.
+*  Bug Fixes:
+   - Resolved an issue where the application would crash when performing certain actions.
+   - Fixed a bug that caused incorrect data rendering in specific scenarios.
+   - Addressed a memory leak problem, leading to better stability and reduced memory usage.
+
+*  UI/UX Enhancements:
+   - Updated the user interface to provide a more intuitive and user-friendly experience.
+   - Refined the layout for better readability and easier navigation.
+
+*  Compatibility Improvements:
+   - Ensured compatibility with the latest operating systems and dependencies.
+   - Tested the application on various platforms to ensure smooth operation.
+
+*  Code Refactoring:
+   - Conducted code refactoring and optimization to enhance code quality and maintainability.
+   - Improved code documentation for better understanding and future development.
+
+We appreciate your support and feedback. Please feel free to reach out to us if you encounter any issues or have any suggestions for further improvements. Enjoy the enhanced performance and bug-free experience!
+
 ## How To Use
 ```bash
 
