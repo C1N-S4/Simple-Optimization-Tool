@@ -19,7 +19,7 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-**Improved Performance and Bug Fixes
+## Improved Performance and Bug Fixes
 *  Performance Boost:
    - Optimized algorithm for faster execution and improved overall performance.
    - Reduced resource consumption, resulting in quicker response times.
