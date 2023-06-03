@@ -17,15 +17,30 @@ def optimize_objective_function(x0):
         raise ValueError("Invalid optimization method.")
     
     try:
-        result = minimize(objective_function, x0, method=method)
+        result = minimize(objective_function, x0, method=method, callback=print_metrics)
         return result
     except Exception as e:
         print("Optimization failed:", str(e))
 
+# Yeni fonksiyon
+def print_metrics(xk):
+    global iteration_count, minimum_values
+    minimum_value = objective_function(xk)
+    minimum_values.append(minimum_value)
+    iteration_count += 1
+    print("Iteration:", iteration_count)
+    print("Current minimum value:", minimum_value)
+    print("Current x:", xk)
+    print()
+
 # Usage example
 x0 = np.array([0, 0])
+iteration_count = 0
+minimum_values = []
 
 result = optimize_objective_function(x0)
 if result is not None:
     print("Optimum values:", result.x)
     print("Minimum value:", result.fun)
+    print("Iteration count:", iteration_count)
+    print("Minimum values per iteration:", minimum_values)
